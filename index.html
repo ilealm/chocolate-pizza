@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
       <figure> 
         <img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/logo.png"/>
          </figcaption>
-       <label>Delicious</label>
+       <label id="lblDelicious">Delicious</label>
        <label>The best food blog on the web</label>
       </figcaption></figure>
     </div>
@@ -23,21 +24,23 @@
       <img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/insta-icon.png"/>
       <img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/flic-icon.png"/>
       <img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/pint-icon.png"/>
+      <img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/hr-img.png">
       <img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/rss-icon.png"/>
       <img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/mail-icon.png"/>
       
     </div>
   </header>
   <section id="one">
-    <div>
+    <div id="title">
       <h2>
         Chocolate Pizza
       </h2>
       <p>POSTED ON 15 DEC 2013/DESSERTS</p> 
     </div>
-    <div>
-     <figure><img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/print-icon.png"/>
-      <img src=""/></figure>PRINT<figcaption></figcaption>
+    <div id="print">
+     <img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/print-icon.png" width="24px"/>
+      <p>PRINT</p> 
+      
       
 
     </div>
@@ -46,13 +49,45 @@
     <figure><img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/choco-pizza.png"/><figcaption> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</figcaption></figure>
   </section>
   <section id="three">
-    <div id="column1"></div>
-    <div id="column2"></div>
+    <div id="column1">
+      <ul>
+        <li>1 1/2 cups milk </li>
+        <li>1/2 mascarpone</li>
+        <li> 1/2 tsp pink salt</li>
+        <li>1 lb black mission figs </li>
+        <li> 1/2 cup brown sugars</li>
+        <li> 2-4 tbsp water </li>
+      </ul>
+    </div>
+
+    <div id="column2">
+      <ul>
+        <li> 1  1/2 cups heavy cream </li>
+        <li> 1/3 granulated sugar </li>
+        <li> 2 egg yolks </li>
+        <li> 1 lemon, juiced </li>
+        <li> 2 tbsp butter </li>
+        <li> 1 cup honey roasted peacans, roughly chopped </li>
+      </ul>
+
+    </div>
   </section>
   <footer>
-    <figure>
+    <div>
+      <figure>
       <img src="https://raw.githubusercontent.com/codefellows/seattle-201d59/master/class-10/lab-a/lab-assets/van-pic.png"></img>
-       <figcaption>text</figcaption></figure>
+        <figcaption>
+          <label inputmode="lblVanessa"> Vanessa Stevson</label>
+          <p>
+            Food enthist, photographer fan. Add a pinch of food of raw foodism and that's pretty much who I'm.
+          </p>
+        
+        </figcaption>
+      </figure>
+    </div>
+    <div>
+      <button>SHARE RECEPIE</button>
+    </div>
   </footer>
   
 </body>
